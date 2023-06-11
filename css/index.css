@@ -1,0 +1,93 @@
+*{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa-user {
+    color: #000000;
+    font-size: 30px;
+    transition: color 0.3s ease;
+
+}
+
+.fa-user:hover {
+    color: #B28FCE;
+
+}
+
+.fa-cart-shopping {
+    color: #000000;
+    font-size: 30px;
+    transition: color 0.3s ease;
+
+}
+
+.fa-cart-shopping:hover {
+    color: #B28FCE;
+}
+
+.bg-main {
+    background-color: #FFB11B;
+}
+
+.fa-user{
+    line-height: 35px;
+}
+
+
+
+.text-hover {
+font-size: 20px;
+    transition: color 0.3s ease;
+}
+.text-hover:hover {
+    color: #4c1c61;
+}
+
+.img-me{
+    
+    height: 400px;
+    object-fit: cover;
+}
+
+.myspan{
+    font-size: 42px;
+}
+
+.lining{
+    background-color:  #8F77B5;
+    border: #8F77B5 1px solid;
+    width: 200px;
+    height: 5px;
+}
+
+.card-hover:hover{
+  
+    opacity: 0.7;
+}
+
+.card-hover:hover~.lining2{
+   visibility: visible;
+}
+
+.lining2{
+    background-color:  #8F77B5;
+    border: #8F77B5 1px solid;
+    width: 286.4px;
+    height: 50px;
+    margin-top: -80px;
+    visibility: hidden;
+    z-index: 1;
+    text-decoration: white;
+}
+
+.icon-hover{
+    color: #000000;
+    font-size: 20px;
+}
+
+.icon-hover:hover{
+    color:#8F77B5;}

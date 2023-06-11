@@ -1,0 +1,27 @@
+.gradient-bg {
+  background-image: linear-gradient(45deg, #ffffff, #0FA958);
+}
+
+a {
+  color: white
+}
+
+
+.nav-hover {
+  transition: transform 0.3s; /* 過渡效果為3秒 */
+}
+
+.nav-hover:hover {
+  transform: scale(1.2); /* 字體放大到1.2倍 */
+  color: white;
+}
+
+.my-img{
+  object-fit: cover;
+  height: 500px;
+  opacity: 0.6;
+}
+
+.bgimg-1{
+  background-image:url(./img/平面設計.png);
+}
